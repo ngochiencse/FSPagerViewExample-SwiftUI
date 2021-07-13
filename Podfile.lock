@@ -1,0 +1,16 @@
+PODS:
+  - FSPagerView (0.8.3)
+
+DEPENDENCIES:
+  - FSPagerView
+
+SPEC REPOS:
+  trunk:
+    - FSPagerView
+
+SPEC CHECKSUMS:
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+
+PODFILE CHECKSUM: 44dcc84fded61c99238e264ee7ea5476078416ea
+
+COCOAPODS: 1.10.1

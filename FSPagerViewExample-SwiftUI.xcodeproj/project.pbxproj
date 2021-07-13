@@ -15,6 +15,9 @@
 		0EC1B6EF269D845A000726A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC1B6ED269D845A000726A1 /* LaunchScreen.storyboard */; };
 		0EC1B6FA269D845B000726A1 /* FSPagerViewExample_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1B6F9269D845B000726A1 /* FSPagerViewExample_SwiftUITests.swift */; };
 		0EC1B705269D845B000726A1 /* FSPagerViewExample_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1B704269D845B000726A1 /* FSPagerViewExample_SwiftUIUITests.swift */; };
+		6366C5CA31F8F1DBE84D547F /* Pods_FSPagerViewExample_SwiftUI_FSPagerViewExample_SwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5637556FADE913411B7C019 /* Pods_FSPagerViewExample_SwiftUI_FSPagerViewExample_SwiftUIUITests.framework */; };
+		A89AD2C9921780A7F66149D4 /* Pods_FSPagerViewExample_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0A0A77A2796D877C901E5B /* Pods_FSPagerViewExample_SwiftUI.framework */; };
+		B077A0D52F2F17386F7FC016 /* Pods_FSPagerViewExample_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E284C8C9D4F0C24AA974B57D /* Pods_FSPagerViewExample_SwiftUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		0EC1B700269D845B000726A1 /* FSPagerViewExample-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FSPagerViewExample-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC1B704269D845B000726A1 /* FSPagerViewExample_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPagerViewExample_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		0EC1B706269D845B000726A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2BE0087F5CF1110453FD7F /* Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests.release.xcconfig"; path = "Target Support Files/Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests/Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F0A0A77A2796D877C901E5B /* Pods_FSPagerViewExample_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSPagerViewExample_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		430C3FB244F5EC8708D16B51 /* Pods-FSPagerViewExample-SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSPagerViewExample-SwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-FSPagerViewExample-SwiftUITests/Pods-FSPagerViewExample-SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A3EE13A148A4B7F92156CAA /* Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests/Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9197AFA6B624A31D7FFC0D51 /* Pods-FSPagerViewExample-SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSPagerViewExample-SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-FSPagerViewExample-SwiftUI/Pods-FSPagerViewExample-SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		A02E06D0125A1F4CA7BF5868 /* Pods-FSPagerViewExample-SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSPagerViewExample-SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-FSPagerViewExample-SwiftUITests/Pods-FSPagerViewExample-SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAFD86704239F143E89E3490 /* Pods-FSPagerViewExample-SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSPagerViewExample-SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-FSPagerViewExample-SwiftUI/Pods-FSPagerViewExample-SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		E284C8C9D4F0C24AA974B57D /* Pods_FSPagerViewExample_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSPagerViewExample_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5637556FADE913411B7C019 /* Pods_FSPagerViewExample_SwiftUI_FSPagerViewExample_SwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSPagerViewExample_SwiftUI_FSPagerViewExample_SwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89AD2C9921780A7F66149D4 /* Pods_FSPagerViewExample_SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B077A0D52F2F17386F7FC016 /* Pods_FSPagerViewExample_SwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6366C5CA31F8F1DBE84D547F /* Pods_FSPagerViewExample_SwiftUI_FSPagerViewExample_SwiftUIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				0EC1B6F8269D845B000726A1 /* FSPagerViewExample-SwiftUITests */,
 				0EC1B703269D845B000726A1 /* FSPagerViewExample-SwiftUIUITests */,
 				0EC1B6E0269D8458000726A1 /* Products */,
+				2D55FE09793F2E7B38F1F4CD /* Pods */,
+				AB2C64BE279406B7DDF66795 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +153,30 @@
 			path = "FSPagerViewExample-SwiftUIUITests";
 			sourceTree = "<group>";
 		};
+		2D55FE09793F2E7B38F1F4CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9197AFA6B624A31D7FFC0D51 /* Pods-FSPagerViewExample-SwiftUI.debug.xcconfig */,
+				DAFD86704239F143E89E3490 /* Pods-FSPagerViewExample-SwiftUI.release.xcconfig */,
+				6A3EE13A148A4B7F92156CAA /* Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests.debug.xcconfig */,
+				2B2BE0087F5CF1110453FD7F /* Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests.release.xcconfig */,
+				A02E06D0125A1F4CA7BF5868 /* Pods-FSPagerViewExample-SwiftUITests.debug.xcconfig */,
+				430C3FB244F5EC8708D16B51 /* Pods-FSPagerViewExample-SwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB2C64BE279406B7DDF66795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F0A0A77A2796D877C901E5B /* Pods_FSPagerViewExample_SwiftUI.framework */,
+				E5637556FADE913411B7C019 /* Pods_FSPagerViewExample_SwiftUI_FSPagerViewExample_SwiftUIUITests.framework */,
+				E284C8C9D4F0C24AA974B57D /* Pods_FSPagerViewExample_SwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EC1B709269D845B000726A1 /* Build configuration list for PBXNativeTarget "FSPagerViewExample-SwiftUI" */;
 			buildPhases = (
+				FC0E167A9922272B38E8E2F6 /* [CP] Check Pods Manifest.lock */,
 				0EC1B6DB269D8458000726A1 /* Sources */,
 				0EC1B6DC269D8458000726A1 /* Frameworks */,
 				0EC1B6DD269D8458000726A1 /* Resources */,
+				A5B0C1AA9014CCC55341B6C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EC1B70C269D845B000726A1 /* Build configuration list for PBXNativeTarget "FSPagerViewExample-SwiftUITests" */;
 			buildPhases = (
+				A46CC83237BAEFB96C398224 /* [CP] Check Pods Manifest.lock */,
 				0EC1B6F1269D845B000726A1 /* Sources */,
 				0EC1B6F2269D845B000726A1 /* Frameworks */,
 				0EC1B6F3269D845B000726A1 /* Resources */,
@@ -178,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EC1B70F269D845B000726A1 /* Build configuration list for PBXNativeTarget "FSPagerViewExample-SwiftUIUITests" */;
 			buildPhases = (
+				421609A4E5616ABBC7838964 /* [CP] Check Pods Manifest.lock */,
 				0EC1B6FC269D845B000726A1 /* Sources */,
 				0EC1B6FD269D845B000726A1 /* Frameworks */,
 				0EC1B6FE269D845B000726A1 /* Resources */,
+				16BC17F885BC793FB3D993AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +306,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16BC17F885BC793FB3D993AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests/Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests/Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests/Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		421609A4E5616ABBC7838964 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A46CC83237BAEFB96C398224 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FSPagerViewExample-SwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B0C1AA9014CCC55341B6C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FSPagerViewExample-SwiftUI/Pods-FSPagerViewExample-SwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FSPagerViewExample-SwiftUI/Pods-FSPagerViewExample-SwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FSPagerViewExample-SwiftUI/Pods-FSPagerViewExample-SwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0E167A9922272B38E8E2F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FSPagerViewExample-SwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0EC1B6DB269D8458000726A1 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		0EC1B70A269D845B000726A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9197AFA6B624A31D7FFC0D51 /* Pods-FSPagerViewExample-SwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +603,7 @@
 		};
 		0EC1B70B269D845B000726A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFD86704239F143E89E3490 /* Pods-FSPagerViewExample-SwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +624,7 @@
 		};
 		0EC1B70D269D845B000726A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02E06D0125A1F4CA7BF5868 /* Pods-FSPagerViewExample-SwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +646,7 @@
 		};
 		0EC1B70E269D845B000726A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430C3FB244F5EC8708D16B51 /* Pods-FSPagerViewExample-SwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		0EC1B710269D845B000726A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3EE13A148A4B7F92156CAA /* Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +688,7 @@
 		};
 		0EC1B711269D845B000726A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2BE0087F5CF1110453FD7F /* Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
