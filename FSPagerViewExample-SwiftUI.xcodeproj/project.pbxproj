@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		0EC1B6EF269D845A000726A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC1B6ED269D845A000726A1 /* LaunchScreen.storyboard */; };
 		0EC1B6FA269D845B000726A1 /* FSPagerViewExample_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1B6F9269D845B000726A1 /* FSPagerViewExample_SwiftUITests.swift */; };
 		0EC1B705269D845B000726A1 /* FSPagerViewExample_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1B704269D845B000726A1 /* FSPagerViewExample_SwiftUIUITests.swift */; };
+		0EC1B716269D850F000726A1 /* FSPageControlSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1B713269D850F000726A1 /* FSPageControlSUI.swift */; };
+		0EC1B717269D850F000726A1 /* FSPagerViewSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1B714269D850F000726A1 /* FSPagerViewSUI.swift */; };
+		0EC1B718269D850F000726A1 /* FSPagerViewSUIOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1B715269D850F000726A1 /* FSPagerViewSUIOrigin.swift */; };
 		6366C5CA31F8F1DBE84D547F /* Pods_FSPagerViewExample_SwiftUI_FSPagerViewExample_SwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5637556FADE913411B7C019 /* Pods_FSPagerViewExample_SwiftUI_FSPagerViewExample_SwiftUIUITests.framework */; };
 		A89AD2C9921780A7F66149D4 /* Pods_FSPagerViewExample_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0A0A77A2796D877C901E5B /* Pods_FSPagerViewExample_SwiftUI.framework */; };
 		B077A0D52F2F17386F7FC016 /* Pods_FSPagerViewExample_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E284C8C9D4F0C24AA974B57D /* Pods_FSPagerViewExample_SwiftUITests.framework */; };
@@ -52,6 +55,9 @@
 		0EC1B700269D845B000726A1 /* FSPagerViewExample-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FSPagerViewExample-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC1B704269D845B000726A1 /* FSPagerViewExample_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPagerViewExample_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		0EC1B706269D845B000726A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC1B713269D850F000726A1 /* FSPageControlSUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageControlSUI.swift; sourceTree = "<group>"; };
+		0EC1B714269D850F000726A1 /* FSPagerViewSUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewSUI.swift; sourceTree = "<group>"; };
+		0EC1B715269D850F000726A1 /* FSPagerViewSUIOrigin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewSUIOrigin.swift; sourceTree = "<group>"; };
 		2B2BE0087F5CF1110453FD7F /* Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests.release.xcconfig"; path = "Target Support Files/Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests/Pods-FSPagerViewExample-SwiftUI-FSPagerViewExample-SwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2F0A0A77A2796D877C901E5B /* Pods_FSPagerViewExample_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSPagerViewExample_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		430C3FB244F5EC8708D16B51 /* Pods-FSPagerViewExample-SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSPagerViewExample-SwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-FSPagerViewExample-SwiftUITests/Pods-FSPagerViewExample-SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +122,7 @@
 		0EC1B6E1269D8458000726A1 /* FSPagerViewExample-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				0EC1B712269D850F000726A1 /* FSPagerViewSwiftUI */,
 				0EC1B6E2269D8458000726A1 /* AppDelegate.swift */,
 				0EC1B6E4269D8458000726A1 /* SceneDelegate.swift */,
 				0EC1B6E6269D8458000726A1 /* ContentView.swift */,
@@ -153,6 +160,16 @@
 			path = "FSPagerViewExample-SwiftUIUITests";
 			sourceTree = "<group>";
 		};
+		0EC1B712269D850F000726A1 /* FSPagerViewSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				0EC1B713269D850F000726A1 /* FSPageControlSUI.swift */,
+				0EC1B714269D850F000726A1 /* FSPagerViewSUI.swift */,
+				0EC1B715269D850F000726A1 /* FSPagerViewSUIOrigin.swift */,
+			);
+			path = FSPagerViewSwiftUI;
+			sourceTree = "<group>";
+		};
 		2D55FE09793F2E7B38F1F4CD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,7 +180,6 @@
 				A02E06D0125A1F4CA7BF5868 /* Pods-FSPagerViewExample-SwiftUITests.debug.xcconfig */,
 				430C3FB244F5EC8708D16B51 /* Pods-FSPagerViewExample-SwiftUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -416,8 +432,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EC1B6E3269D8458000726A1 /* AppDelegate.swift in Sources */,
+				0EC1B716269D850F000726A1 /* FSPageControlSUI.swift in Sources */,
+				0EC1B717269D850F000726A1 /* FSPagerViewSUI.swift in Sources */,
 				0EC1B6E5269D8458000726A1 /* SceneDelegate.swift in Sources */,
 				0EC1B6E7269D8458000726A1 /* ContentView.swift in Sources */,
+				0EC1B718269D850F000726A1 /* FSPagerViewSUIOrigin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
